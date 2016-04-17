@@ -1,81 +1,155 @@
-#body {
-    background-color:black;
-    font-family:sans-serif;
+/* Thanks Ian for all of your help!!! */
+
+/* Thanks to NYPL and Project Code for your support!!! */
+
+
+
+
+/* ------------------------tag styling ----------------------*/
+
+body {
+    background-color: #D0D5D6;
+    font-family: Raleway, sans-serif;
     text-align:center;
-    color:white;       
-}
+    color:black;
+    }
 
+        
+a   {text-decoration: none;
+    color:#101010;
+    }
+    
+a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+    
+        
 h1 {
-    font-size:24px;
-    font-family:cursive;
-    color:white;
+    font-size:40px;
+    font-family: Raleway, sans-serif;
+    font-weight:100;
+    color:#101010;
+    letter-spacing: .2em;
     text-align: center;
-}
+    margin-bottom:5px;
+    }
+    
+h2 {
+    font-size:17px;
+    font-family:Raleway, sans-serif;
+    font-weight:400;
+    letter-spacing: .1em;
+    color: #101010;
+    text-align:center;
+    padding-top: .5em;
+    padding-bottom:.25em;
+    }
 
-#list li:hover{
-    background-color: red;
-    color:white;
-}
+h3 {
+    font-size:16px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    letter-spacing: .12em;
+    color:#101010;
+    line-height: 70%;
+    text-align:center;
+    }
+    
+p   {
+    font-size:14px;
+    font-family: Raleway, sans-serif;
+    font-weight:400;
+    letter-spacing: .1em;
+    color:#101010;
+    line-height: 70%;
+    text-align:center;
+    }
+    
+img {
+    max-width: 40%;
+    text-align:center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border: solid 2px #FFF;
+    }
+    
+/* -------------------------------------------------------*/
+    
+  
+  
+    
+
+/* ------------------------ list and li styling ----------------------*/
 
 #list {
-    font-family:sans-serif;
-    color:white; 
-    font-size:18px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #FFFFFF; 
+    font-size:16px;
+    letter-spacing: 2px;
+    }
 
-}
 
 #list li {
         display: inline-block;
         width: 100px;
-        height: 50px;
+        height: 25px;
         text-align:center;
-        vertical-align: top;
-        padding-top: 20px;
+        vertical-align: central;
+        padding-top:6px;
+        }  
+        
+#list li:hover {
+        background-color: #FF2400;
+        text-decoration: none;
+        }
+    
+/* -------------------------------------------------------*/
+
+
+
+/* ------------------------class styling ----------------------*/
+
+.main { 
+        max-width: 90%;
+        width: calc(90% - 18px);
+        margin: 5px;
+        display: inline-block;
+        border: solid 1px white;
+        }
+
+.footer {
+    width: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: .3em;
     }
 
-img {
-    height:400px;
+.map  {
+    width: 600px;
     text-align:center;
-    border-color:red;
-}
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    border: solid 2px white;
+    }
 
-.black {background-color: black;
-}
+.nav {
+    position:relative;
+    left:-20px;
+    
+.logo {
+    position:relative;
+    left:100px;
+    width:100px;
+    }
 
-.red {background-color: red;
-}
-
-#column1{
-    margin: 10px 10px;
-    width:25%;
-    display:inline-block;
-    vertical-align: top;
-    text-align:center;
-}
-
-#column2 {
-    margin: 10px 10px;
-    width:25%;
-    display:inline-block;
-    vertical-align: top;
-    text-align:center;
-}
-
-h2 {
-    font-size:22px;
-    font-family:sans-serif;
-    color:white; 
-}
-
-h3 {
-    font-size:18px;
-    font-family:sans-serif;
-    color:white;
-}
-p {
-    font-size:14px;
-    font-family:sans-serif;
-    color:white;
-}
+/* ------------------------------------------------------*/
 
 
+
+/* Newbie designers tip:  in html use "&nbsp" to insert more white space */
